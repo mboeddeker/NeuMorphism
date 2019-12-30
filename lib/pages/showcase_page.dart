@@ -55,6 +55,7 @@ class ShowcasePage extends StatelessWidget {
           child: Text(
             'Neumorphism, one of the biggest UI Trends in 2020. Explore this showcase page, to get a feeling about that topic.',
             textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 18),
           ),
         )
       ],

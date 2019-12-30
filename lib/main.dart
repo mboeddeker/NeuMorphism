@@ -1,6 +1,7 @@
 import 'package:appgewaltig/pages/profile_page.dart';
 import 'package:appgewaltig/pages/showcase_page.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        textTheme: GoogleFonts.iBMPlexSansTextTheme(),
       ),
       home: ShowcasePage(),
     );
