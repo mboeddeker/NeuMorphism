@@ -28,7 +28,7 @@ class NeuMorphWidget extends StatelessWidget {
         borderRadius: borderRadius ?? BorderRadius.circular(15.0),
         boxShadow: [
           BoxShadow(
-            color: Colors.white70,
+            color: Colors.white54,
             offset: Offset(-5, -5),
             blurRadius: 15,
             spreadRadius: 0,

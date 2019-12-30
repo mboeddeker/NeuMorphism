@@ -28,7 +28,7 @@ class ProfilePage extends StatelessWidget {
                       fontSize: 40.0,
                       shadows: [
                         BoxShadow(
-                          color: Colors.white,
+                          color: Colors.white70,
                           offset: Offset(-1, -1),
                           blurRadius: 5,
                           spreadRadius: 0,
