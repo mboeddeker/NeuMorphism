@@ -1,5 +1,5 @@
-import 'package:appgewaltig/utils/neumorph_widget.dart';
-import 'package:appgewaltig/utils/responsive_widget.dart';
+import 'package:appgewaltig/widgets/neumorph_widget.dart';
+import 'package:appgewaltig/widgets/responsive_widget.dart';
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatelessWidget {
@@ -16,9 +16,9 @@ class ProfilePage extends StatelessWidget {
           child: Center(
             child: Center(
               child: NeuMorphWidget(
-                height: 350,
+                height: 200,
                 width: 350,
-                borderRadius: BorderRadius.circular(225),
+                borderRadius: BorderRadius.circular(15),
                 color: Colors.grey[200],
                 child: Center(
                   child: Text(
