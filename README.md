@@ -1,6 +1,6 @@
 # appgewaltig
 
-A new Flutter project.
+https://mboeddeker.github.io/NeuMorphism/
 
 ## Getting Started
 
