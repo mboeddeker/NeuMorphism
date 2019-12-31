@@ -610,6 +610,8 @@ file:///Users/marvinboddeker/.flutterSDK/flutter/packages/flutter/lib/widgets.da
 file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/.dart_tool/flutter_build/c60501128bb0a1f1eb3f9a42f488b299/main.dart
 file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/.packages
 file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/main.dart
-file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/pages/profile_page.dart
-file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/utils/neumorph_widget.dart
-file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/utils/responsive_widget.dart
+file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/pages/showcase_page.dart
+file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/utils/colors.dart
+file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/widgets/animated_card.dart
+file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/widgets/neumorph_widget.dart
+file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/widgets/responsive_widget.dart
