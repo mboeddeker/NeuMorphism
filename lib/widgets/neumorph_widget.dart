@@ -1,3 +1,4 @@
+import 'package:appgewaltig/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class NeuMorphWidget extends StatelessWidget {
@@ -26,21 +27,7 @@ class NeuMorphWidget extends StatelessWidget {
       decoration: BoxDecoration(
         color: color,
         borderRadius: borderRadius ?? BorderRadius.circular(15.0),
-        boxShadow: shadows ??
-            [
-              BoxShadow(
-                color: Color(0xFFFFFFFF).withOpacity(0.5),
-                offset: Offset(-5, -5),
-                blurRadius: 15,
-                spreadRadius: 0,
-              ),
-              BoxShadow(
-                color: Color(0xFFA3B1C6).withOpacity(0.8),
-                offset: Offset(5, 5),
-                blurRadius: 15,
-                spreadRadius: 0,
-              ),
-            ],
+        boxShadow: shadows ?? AppColors.lightShadows(3),
       ),
       child: child,
     );

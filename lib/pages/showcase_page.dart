@@ -1,3 +1,5 @@
+import 'package:appgewaltig/utils/colors.dart';
+import 'package:appgewaltig/widgets/animated_card.dart';
 import 'package:appgewaltig/widgets/neumorph_widget.dart';
 import 'package:appgewaltig/widgets/responsive_widget.dart';
 import 'package:flutter/material.dart';
@@ -31,44 +33,27 @@ class ShowcasePage extends StatelessWidget {
           child: Text(
             'NeuMorphism',
             style: TextStyle(
-              color: Color(0xFFE0E5Ec),
+              color: AppColors.lightBackground,
               fontWeight: FontWeight.w700,
               fontSize: (ResponsiveWidget.isLargeScreen(context)) ? 64 : 38,
-              shadows: [
-                BoxShadow(
-                  color: Color(0xFFFFFFFF).withOpacity(0.5),
-                  offset: Offset(-1, -1),
-                  blurRadius: 4,
-                  spreadRadius: 0,
-                ),
-                BoxShadow(
-                  color: Color(0xFFA3B1C6).withOpacity(0.8),
-                  offset: Offset(1, 1),
-                  blurRadius: 4,
-                  spreadRadius: 0,
-                ),
-              ],
+              shadows: AppColors.lightShadows(2),
             ),
           ),
         ),
         Padding(
-          padding: EdgeInsets.all(45),
+          padding: EdgeInsets.only(
+            top: 64,
+            left: ResponsiveWidget.isLargeScreen(context) ? 128 : 16,
+            right: ResponsiveWidget.isLargeScreen(context) ? 128 : 16,
+          ),
           child: Text(
-            'Neumorphism, one of the biggest UI Trends in 2020. Explore this showcase page, to get a feeling about that topic.',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 18),
+            'Neumorphism, one of the biggest UI Trends in 2020. Think about soft ui, no hard borders, more like a piece of fabric with some buttons. Or another and better example. Look at the iPad Pro Keyboard. Explore this showcase page, to get a feeling about that topic.',
+            textAlign: TextAlign.justify,
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300, height: 1.5),
           ),
         ),
-        SizedBox(height: 45),
-        NeuMorphWidget(
-          height: 200,
-          width: 350,
-          child: Container(
-            decoration: BoxDecoration(
-                color: Color(0xFFE0E5Ec),
-                borderRadius: BorderRadius.circular(15)),
-          ),
-        ),
+        SizedBox(height: 90),
+        AnimatedCard(),
         SizedBox(
           height: 50,
         ),
