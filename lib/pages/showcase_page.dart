@@ -9,10 +9,13 @@ class ShowcasePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFE0E5Ec),
-      body: Container(
-        color: Color(0xFFE0E5Ec),
-        child: ListView(
-          children: _buildShowCase(context),
+      body: Center(
+        child: Container(
+          constraints: BoxConstraints(maxWidth: 900),
+          color: Color(0xFFE0E5Ec),
+          child: ListView(
+            children: _buildShowCase(context),
+          ),
         ),
       ),
     );
@@ -21,6 +24,11 @@ class ShowcasePage extends StatelessWidget {
   List<Widget> _buildShowCase(BuildContext context) {
     return [
       _buildHeadline(context),
+      _buildCircleRow(context),
+      SizedBox(height: 50),
+      _buildProgressBar(context),
+      SizedBox(height: 90),
+      _buildCardImage(context),
     ];
   }
 
@@ -43,8 +51,8 @@ class ShowcasePage extends StatelessWidget {
         Padding(
           padding: EdgeInsets.only(
             top: 64,
-            left: ResponsiveWidget.isLargeScreen(context) ? 128 : 16,
-            right: ResponsiveWidget.isLargeScreen(context) ? 128 : 16,
+            left: ResponsiveWidget.isLargeScreen(context) ? 80 : 16,
+            right: ResponsiveWidget.isLargeScreen(context) ? 80 : 16,
           ),
           child: Text(
             'Neumorphism, one of the biggest UI Trends in 2020. Think about soft ui, no hard borders, more like a piece of fabric with some buttons. Or another and better example. Look at the iPad Pro Keyboard. Explore this showcase page, to get a feeling about that topic.',
@@ -56,6 +64,110 @@ class ShowcasePage extends StatelessWidget {
         AnimatedCard(),
         SizedBox(
           height: 50,
+        ),
+      ],
+    );
+  }
+
+  Widget _buildCircleRow(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: <Widget>[
+        _buildRoundMorph(
+          context,
+          icon: Icon(
+            Icons.ac_unit,
+            color: Colors.blueGrey,
+            size: 50,
+          ),
+        ),
+        _buildRoundMorph(
+          context,
+          icon: Icon(
+            Icons.face,
+            color: Colors.green[900],
+            size: 50,
+          ),
+        ),
+        _buildRoundMorph(
+          context,
+          icon: Icon(
+            Icons.data_usage,
+            color: Colors.red[900],
+            size: 50,
+          ),
+        )
+      ],
+    );
+  }
+
+  Widget _buildRoundMorph(BuildContext context, {@required Icon icon}) {
+    return NeuMorphWidget(
+      height: 100,
+      width: 100,
+      borderRadius: BorderRadius.circular(50),
+      child: Container(
+        decoration: BoxDecoration(
+          color: AppColors.lightBackground,
+          borderRadius: BorderRadius.circular(50),
+        ),
+        child: Center(
+          child: icon,
+        ),
+      ),
+    );
+  }
+
+  Widget _buildProgressBar(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(left: 32, right: 32),
+      child: NeuMorphWidget(
+        height: 25,
+        width: double.infinity,
+        child: Container(
+          decoration: BoxDecoration(
+            color: AppColors.lightBackground,
+            borderRadius: BorderRadius.circular(15),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: <Widget>[
+              NeuMorphWidget(
+                child: Container(
+                  width: 250,
+                  height: 25,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildCardImage(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[
+        NeuMorphWidget(
+          height: 280,
+          width: 350,
+          child: Container(
+              decoration: BoxDecoration(
+                color: AppColors.lightBackground,
+                borderRadius: BorderRadius.circular(15),
+              ),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(15),
+                child: Image.asset(
+                  'assets/images/card-image.jpg',
+                  fit: BoxFit.cover,
+                ),
+              )),
         ),
       ],
     );
