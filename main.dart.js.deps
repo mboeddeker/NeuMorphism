@@ -19,6 +19,10 @@ file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.
 file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/utils.dart
 file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/wrappers.dart
 file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8/lib/meta.dart
+file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.6/lib/shared_preferences.dart
+file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_platform_interface-1.0.1/lib/method_channel_shared_preferences.dart
+file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_platform_interface-1.0.1/lib/shared_preferences_platform_interface.dart
+file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-0.1.2+2/lib/shared_preferences_web.dart
 file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.1.6/lib/typed_buffers.dart
 file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/universal_html-1.1.11/lib/html.dart
 file:///Users/marvinboddeker/.flutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/universal_html-1.1.11/lib/src/_sdk/html.dart
@@ -609,8 +613,12 @@ file:///Users/marvinboddeker/.flutterSDK/flutter/packages/flutter/lib/src/widget
 file:///Users/marvinboddeker/.flutterSDK/flutter/packages/flutter/lib/src/widgets/widget_span.dart
 file:///Users/marvinboddeker/.flutterSDK/flutter/packages/flutter/lib/src/widgets/will_pop_scope.dart
 file:///Users/marvinboddeker/.flutterSDK/flutter/packages/flutter/lib/widgets.dart
-file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/.dart_tool/flutter_build/c60501128bb0a1f1eb3f9a42f488b299/main.dart
+file:///Users/marvinboddeker/.flutterSDK/flutter/packages/flutter_web_plugins/lib/flutter_web_plugins.dart
+file:///Users/marvinboddeker/.flutterSDK/flutter/packages/flutter_web_plugins/lib/src/plugin_event_channel.dart
+file:///Users/marvinboddeker/.flutterSDK/flutter/packages/flutter_web_plugins/lib/src/plugin_registry.dart
+file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/.dart_tool/flutter_build/de3c22bf24408e50b7c60423d0cf7fe4/main.dart
 file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/.packages
+file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/generated_plugin_registrant.dart
 file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/main.dart
 file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/pages/showcase_page.dart
 file:///Users/marvinboddeker/Entwicklung/flut/appgewaltig/lib/utils/colors.dart
