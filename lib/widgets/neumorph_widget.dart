@@ -25,9 +25,9 @@ class NeuMorphWidget extends StatelessWidget {
       height: height,
       width: width,
       decoration: BoxDecoration(
-        color: color,
+        color: color ?? AppColors.backgroundColor(),
         borderRadius: borderRadius ?? BorderRadius.circular(15.0),
-        boxShadow: shadows ?? AppColors.lightShadows(3),
+        boxShadow: shadows ?? (AppColors.shadows(3)),
       ),
       child: child,
     );

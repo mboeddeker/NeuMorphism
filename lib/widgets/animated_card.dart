@@ -16,32 +16,39 @@ class _AnimatedCardState extends State<AnimatedCard> with SingleTickerProviderSt
   void initState() {
     super.initState();
 
-    _animationController = AnimationController(duration: Duration(milliseconds: 500), vsync: this);
+    _animationController = AnimationController(duration: Duration(seconds: 4), vsync: this);
     _animation = CurvedAnimation(parent: _animationController, curve: Curves.easeIn);
 
     _animationController.addListener(() => setState(() {}));
+    _animationController.addStatusListener((status) {
+      if (status == AnimationStatus.completed) {
+        _animationController.reverse();
+      } else if (status == AnimationStatus.dismissed) {
+        _animationController.forward();
+      }
+    });
+
+    _animationController.forward();
   }
 
   @override
   Widget build(BuildContext context) {
-    return HandCourser(
-      child: NeuMorphWidget(
-        height: 200,
-        width: 350,
-        shadows: AppColors.lightShadows(3, opacity: _animation.value),
-        child: GestureDetector(
-          onTap: () => _animationController.forward(),
-          child: Container(
-            decoration: BoxDecoration(
-              color: AppColors.lightBackground,
-              borderRadius: BorderRadius.circular(15),
-            ),
-            child: Center(
-              child: Text('Click me'.toUpperCase()),
-            ),
-          ),
+    return NeuMorphWidget(
+      height: 200,
+      width: 350,
+      shadows: AppColors.lightShadows(3, opacity: _animation.value),
+      child: Container(
+        decoration: BoxDecoration(
+          color: AppColors.lightBackground,
+          borderRadius: BorderRadius.circular(15),
         ),
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    _animationController.dispose();
+    super.dispose();
   }
 }
