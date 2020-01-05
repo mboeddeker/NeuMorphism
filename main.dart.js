@@ -21986,44 +21986,44 @@ $aq:function(){return[[P.P,,,]]}}
 P.tT.prototype={}
 P.tU.prototype={}
 T.Gs.prototype={
-L:function(a4){var u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=null,a1="Neumorphism, one of the biggest UI Trends in 2020. Think about soft ui, no hard borders, more like a piece of fabric with some buttons. Or another and better example. Look at the iPad Pro Keyboard. Explore this showcase page, to get a feeling about that topic.",a2=$.bp?$.bf():$.b6(),a3=F.aG(a4,!1).a.a>800?56:38
-a3=L.ip("NeuMorphism",A.dz(a0,a0,a2,a0,a0,a0,a0,a0,a0,a0,a0,a3,a0,C.bB,a0,a0,!0,a0,a0,a0,E.Oy(2),a0,a0),a0)
-a2=new P.Q(12,12)
+L:function(a3){var u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=null,a1=$.bp?$.bf():$.b6(),a2=F.aG(a3,!1).a.a>800?56:38
+a2=L.ip("NeuMorphism",A.dz(a0,a0,a1,a0,a0,a0,a0,a0,a0,a0,a0,a2,a0,C.bB,a0,a0,!0,a0,a0,a0,E.Oy(2),a0,a0),a0)
+a1=new P.Q(12,12)
 u=E.Oy(1)
 t=$.bp?$.bf():$.b6()
 s=new P.Q(12,12)
 r=[N.bo]
-u=H.b([T.ii(H.b([new T.bt(C.o3,B.bz(new K.a0(a2,a2,a2,a2),M.aW(a0,a0,a0,a0,S.aL(a0,new K.a0(s,s,s,s),a0,t,a0,a0,C.n),a0,a0,a0,a0),24,u,24),a0),new T.c6(16,a0,a0,a0)],r),C.aZ,C.dd,C.b2)],r)
-a2=$.bp
-t=a2?$.bf():$.b6()
-a2=a2?$.bf():$.b6()
-s=F.aG(a4,!1).a.a>800?80:16
-q=F.aG(a4,!1).a.a>800?80:16
-p=L.ip(a1,A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt)
-o=F.aG(a4,!1).a.a>800?80:16
-n=F.aG(a4,!1).a.a>800?80:16
-n=T.jg(H.b([new T.bt(new V.ab(s,64,q,0),p,a0),new T.c6(a0,90,a0,a0),new M.mL(a0),new T.c6(a0,50,a0,a0),new T.bt(new V.ab(o,8,n,90),L.ip(a1,A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt),a0)],r),C.dd)
-s=F.aG(a4,!1).a.a>800?80:16
-q=F.aG(a4,!1).a.a>800?80:16
-q=T.jg(H.b([new T.bt(new V.ab(s,8,q,90),L.ip(a1,A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt),a0),T.ii(H.b([this.mY(a4,L.zP(C.os,C.pE,50)),this.mY(a4,L.zP(C.oq,C.po.i(0,900),50)),this.mY(a4,L.zP(C.om,C.hO.i(0,900),50))],r),C.aZ,C.de,C.b2)],r),C.bG)
-s=F.aG(a4,!1).a.a>800?64:32
-p=F.aG(a4,!1).a.a>800?64:32
+u=H.b([T.ii(H.b([new T.bt(C.o3,B.bz(new K.a0(a1,a1,a1,a1),M.aW(a0,a0,a0,a0,S.aL(a0,new K.a0(s,s,s,s),a0,t,a0,a0,C.n),a0,a0,a0,a0),24,u,24),a0),new T.c6(16,a0,a0,a0)],r),C.aZ,C.dd,C.b2)],r)
+a1=$.bp
+t=a1?$.bf():$.b6()
+a1=a1?$.bf():$.b6()
+s=F.aG(a3,!1).a.a>800?80:16
+q=F.aG(a3,!1).a.a>800?80:16
+p=L.ip("Neumorphism, one of the biggest UI Trends in 2020. Think about soft ui, no hard borders, more like a piece of fabric with some buttons. Or another and better example. Look at the iPad Pro Keyboard. Explore this showcase page, to get a feeling about that topic.",A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt)
+o=F.aG(a3,!1).a.a>800?80:16
+n=F.aG(a3,!1).a.a>800?80:16
+n=T.jg(H.b([new T.bt(new V.ab(s,64,q,0),p,a0),new T.c6(a0,90,a0,a0),new M.mL(a0),new T.c6(a0,50,a0,a0),new T.bt(new V.ab(o,8,n,90),L.ip("As you can see, this elements comes up from nothing. With Neumorphism, we can imagine new ways of userinteraction. Elements appear like a piece of paper.",A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt),a0)],r),C.dd)
+s=F.aG(a3,!1).a.a>800?80:16
+q=F.aG(a3,!1).a.a>800?80:16
+q=T.jg(H.b([new T.bt(new V.ab(s,8,q,90),L.ip("We can use this, for elements like buttons, progress bars, lists, menus and so on. I do not show everything here in the demo (not now), but with this design system, we create a feeling of real touch on a canvas.",A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt),a0),T.ii(H.b([this.mY(a3,L.zP(C.os,C.pE,50)),this.mY(a3,L.zP(C.oq,C.po.i(0,900),50)),this.mY(a3,L.zP(C.om,C.hO.i(0,900),50))],r),C.aZ,C.de,C.b2)],r),C.bG)
+s=F.aG(a3,!1).a.a>800?64:32
+p=F.aG(a3,!1).a.a>800?64:32
 o=$.bp?$.bf():$.b6()
 m=new P.Q(15,15)
 o=S.aL(a0,new K.a0(m,m,m,m),a0,o,a0,a0,C.n)
 m=new P.Q(15,15)
 o=B.bz(a0,M.aW(a0,T.ii(H.b([B.bz(a0,M.aW(a0,a0,a0,a0,S.aL(a0,new K.a0(m,m,m,m),a0,C.k,a0,a0,C.n),25,a0,a0,250),a0,a0,a0)],r),C.aZ,C.bG,C.b2),a0,a0,o,a0,a0,a0,a0),25,a0,1/0)
-m=F.aG(a4,!1).a.a>800?80:16
-l=F.aG(a4,!1).a.a>800?80:16
-k=L.ip(a1,A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt)
+m=F.aG(a3,!1).a.a>800?80:16
+l=F.aG(a3,!1).a.a>800?80:16
+k=L.ip("Another great example is that image. You can use it in card elements also. Everything is possible.",A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt)
 j=$.bp?$.bf():$.b6()
 i=new P.Q(15,15)
 j=S.aL(a0,new K.a0(i,i,i,i),a0,j,a0,a0,C.n)
 i=new P.Q(15,15)
 m=T.jg(H.b([new T.bt(new V.ab(m,8,l,90),k,a0),new T.bt(C.o5,new T.IA(C.ii,16,H.b([T.jg(H.b([B.bz(a0,M.aW(a0,new T.wu(new K.a0(i,i,i,i),new U.oe(M.Xb(a0,a0,new L.vr("assets/images/card-image.jpg",a0,a0)),C.iJ,a0),a0),a0,a0,j,a0,a0,a0,a0),280,a0,350)],r),C.dd)],r),a0),a0)],r),C.bG)
-l=F.aG(a4,!1).a.a>800?80:16
-k=F.aG(a4,!1).a.a>800?80:16
-j=L.ip(a1,A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt)
+l=F.aG(a3,!1).a.a>800?80:16
+k=F.aG(a3,!1).a.a>800?80:16
+j=L.ip("And why not a complete mobile layout in Neumorphism ? With this example, you get a feeling for this. ",A.dz(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,20,a0,C.bA,a0,1.5,!0,a0,a0,a0,a0,a0,a0),C.bt)
 i=$.bp?$.bf():$.b6()
 h=new P.Q(15,15)
 i=M.aW(a0,a0,a0,a0,S.aL(a0,new K.a0(h,h,h,h),a0,i,a0,a0,C.n),a0,a0,a0,a0)
@@ -22073,7 +22073,7 @@ a=new P.Q(24,24)
 r=H.b([n,q,new T.c6(a0,50,a0,a0),new T.bt(new V.ab(s,0,p,0),o,a0),new T.c6(a0,90,a0,a0),m,new T.c6(a0,90,a0,a0),T.jg(H.b([new T.bt(new V.ab(l,8,k,90),j,a0),B.bz(a0,T.la(C.l0,H.b([i,c,T.DO(0,B.bz(a0,M.aW(a0,T.ii(H.b([h,f,e,B.bz(new K.a0(b,b,b,b),M.aW(a0,a0,a0,a0,S.aL(a0,new K.a0(a,a,a,a),a0,d,a0,a0,C.n),a0,a0,a0,a0),48,a0,48)],r),C.aZ,C.de,C.b2),a0,a0,g,a0,a0,a0,a0),60,a0,350),a0,a0,a0,a0,a0,a0)],r),C.dr),600,a0,350)],r),C.dd),new T.c6(a0,180,a0,a0)],r)
 g=P.bi([null,0],D.fD,P.j)
 s=r.length
-return new M.pI(new E.mV(new T.bt(C.o0,a3,a0),u,0,C.fy,!0,new P.N(1/0,56),a0),new T.fm(C.a8,a0,a0,M.aW(a0,new B.B2(new G.Gz(!0,!0,!0,r,g),a0,C.m,!1,a0,!0,C.l6,!1,a0,s,C.ah,a0),a2,new S.a7(0,900,0,1/0),a0,a0,a0,a0,a0),a0),t,a0)},
+return new M.pI(new E.mV(new T.bt(C.o0,a2,a0),u,0,C.fy,!0,new P.N(1/0,56),a0),new T.fm(C.a8,a0,a0,M.aW(a0,new B.B2(new G.Gz(!0,!0,!0,r,g),a0,C.m,!1,a0,!0,C.l6,!1,a0,s,C.ah,a0),a1,new S.a7(0,900,0,1/0),a0,a0,a0,a0,a0),a0),t,a0)},
 mY:function(a,b){var u=null,t=new P.Q(50,50),s=$.bp?$.bf():$.b6(),r=new P.Q(50,50)
 return B.bz(new K.a0(t,t,t,t),M.aW(u,new T.fm(C.a8,u,u,b,u),u,u,S.aL(u,new K.a0(r,r,r,r),u,s,u,u,C.n),u,u,u,u),100,u,100)}}
 M.mL.prototype={
