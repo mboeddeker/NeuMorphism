@@ -104,7 +104,7 @@ class ShowcasePage extends StatelessWidget {
             right: ResponsiveWidget.isLargeScreen(context) ? 80 : 16,
           ),
           child: Text(
-            'Neumorphism, one of the biggest UI Trends in 2020. Think about soft ui, no hard borders, more like a piece of fabric with some buttons. Or another and better example. Look at the iPad Pro Keyboard. Explore this showcase page, to get a feeling about that topic.',
+            'As you can see, this elements comes up from nothing. With Neumorphism, we can imagine new ways of userinteraction. Elements appear like a piece of paper.',
             textAlign: TextAlign.justify,
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300, height: 1.5),
           ),
@@ -124,7 +124,7 @@ class ShowcasePage extends StatelessWidget {
             right: ResponsiveWidget.isLargeScreen(context) ? 80 : 16,
           ),
           child: Text(
-            'Neumorphism, one of the biggest UI Trends in 2020. Think about soft ui, no hard borders, more like a piece of fabric with some buttons. Or another and better example. Look at the iPad Pro Keyboard. Explore this showcase page, to get a feeling about that topic.',
+            'We can use this, for elements like buttons, progress bars, lists, menus and so on. I do not show everything here in the demo (not now), but with this design system, we create a feeling of real touch on a canvas.',
             textAlign: TextAlign.justify,
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300, height: 1.5),
           ),
@@ -223,7 +223,7 @@ class ShowcasePage extends StatelessWidget {
             right: ResponsiveWidget.isLargeScreen(context) ? 80 : 16,
           ),
           child: Text(
-            'Neumorphism, one of the biggest UI Trends in 2020. Think about soft ui, no hard borders, more like a piece of fabric with some buttons. Or another and better example. Look at the iPad Pro Keyboard. Explore this showcase page, to get a feeling about that topic.',
+            'Another great example is that image. You can use it in card elements also. Everything is possible.',
             textAlign: TextAlign.justify,
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300, height: 1.5),
           ),
@@ -275,7 +275,7 @@ class ShowcasePage extends StatelessWidget {
             right: ResponsiveWidget.isLargeScreen(context) ? 80 : 16,
           ),
           child: Text(
-            'Neumorphism, one of the biggest UI Trends in 2020. Think about soft ui, no hard borders, more like a piece of fabric with some buttons. Or another and better example. Look at the iPad Pro Keyboard. Explore this showcase page, to get a feeling about that topic.',
+            'And why not a complete mobile layout in Neumorphism ? With this example, you get a feeling for this. ',
             textAlign: TextAlign.justify,
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300, height: 1.5),
           ),
